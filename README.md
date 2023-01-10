@@ -9,7 +9,7 @@ Cosine similarity was used to calculate the similarity of sentence pairs.
 | MU-Kindai/SBERT-JSNLI-base | 0.7652       | 0.6526      |
 | MU-Kindai/SBERT-JSNLI-large | 0.7732       | 0.6762      |
 | sonoisa/sentence-bert-base-ja-mean-tokens-v2 | 0.8086       | 0.7680      |
-
+| oshizo/sbert-jsnli-luke-japanese-base-lite | 0.8109       | 0.7260      |
 
 ## Models
 
@@ -17,6 +17,7 @@ Cosine similarity was used to calculate the similarity of sentence pairs.
 2. https://huggingface.co/MU-Kindai/SBERT-JSNLI-base
 3. https://huggingface.co/MU-Kindai/SBERT-JSNLI-large
 4. https://huggingface.co/sonoisa/sentence-bert-base-ja-mean-tokens-v2
+5. https://huggingface.co/oshizo/sbert-jsnli-luke-japanese-base-lite
 
 ## Datasets
 
