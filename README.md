@@ -11,6 +11,8 @@ Cosine similarity was used to calculate the similarity of sentence pairs.
 | sonoisa/sentence-bert-base-ja-mean-tokens-v2 | 0.8086       | 0.7680      |
 | oshizo/sbert-jsnli-luke-japanese-base-lite | 0.8109       | 0.7260      |
 | pkshatech/simcse-ja-bert-base-clcmlp | 0.8014       | 0.7345      |
+| universal-sentence-encoder-multilingual-large-3 | 0.8014       | 0.8232      |
+| universal-sentence-encoder-multilingual-3 | 0.7899       | 0.8003      |
 
 ## Models
 
@@ -20,6 +22,8 @@ Cosine similarity was used to calculate the similarity of sentence pairs.
 4. https://huggingface.co/sonoisa/sentence-bert-base-ja-mean-tokens-v2
 5. https://huggingface.co/oshizo/sbert-jsnli-luke-japanese-base-lite
 6. https://huggingface.co/pkshatech/simcse-ja-bert-base-clcmlp
+7. https://tfhub.dev/google/universal-sentence-encoder-multilingual-large/3
+8. https://tfhub.dev/google/universal-sentence-encoder-multilingual/3
 
 ## Datasets
 
