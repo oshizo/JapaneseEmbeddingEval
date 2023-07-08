@@ -14,6 +14,8 @@ Cosine similarity was used to calculate the similarity of sentence pairs.
 | universal-sentence-encoder-multilingual-large-3 | 0.8014       | 0.8232      |
 | universal-sentence-encoder-multilingual-3 | 0.7899       | 0.8003      |
 | text-embedding-ada-002 | 0.7900 | 0.7894 |
+| intfloat/multilingual-e5-base | 0.7839 | 0.8136 |
+| intfloat/multilingual-e5-large | 0.8098 | 0.7838 |
 
 ## Models
 
@@ -26,6 +28,8 @@ Cosine similarity was used to calculate the similarity of sentence pairs.
 7. https://tfhub.dev/google/universal-sentence-encoder-multilingual-large/3
 8. https://tfhub.dev/google/universal-sentence-encoder-multilingual/3
 9. https://platform.openai.com/docs/guides/embeddings
+10. https://huggingface.co/intfloat/multilingual-e5-base
+11. https://huggingface.co/intfloat/multilingual-e5-large
 
 ## Datasets
 
