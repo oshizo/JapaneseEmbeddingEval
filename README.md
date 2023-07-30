@@ -14,8 +14,8 @@ Cosine similarity was used to calculate the similarity of sentence pairs.
 | universal-sentence-encoder-multilingual-large-3 | 0.8014       | 0.8232      |
 | universal-sentence-encoder-multilingual-3 | 0.7899       | 0.8003      |
 | text-embedding-ada-002 | 0.7900 | 0.7894 |
-| intfloat/multilingual-e5-base | 0.7839 | 0.8136 |
-| intfloat/multilingual-e5-large | 0.8098 | 0.7838 |
+| intfloat/multilingual-e5-base | 0.7964 | 0.8056 |
+| intfloat/multilingual-e5-large | 0.8185 | 0.7939 |
 
 ## Models
 
