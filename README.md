@@ -16,6 +16,7 @@ Cosine similarity was used to calculate the similarity of sentence pairs.
 | text-embedding-ada-002 | 0.7900 | 0.7894 |
 | intfloat/multilingual-e5-base | 0.7964 | 0.8056 |
 | intfloat/multilingual-e5-large | 0.8185 | 0.7939 |
+| pkshatech/GLuCoSE-base-ja | 0.8176 | 0.7570 |
 
 ## Models
 
@@ -30,6 +31,7 @@ Cosine similarity was used to calculate the similarity of sentence pairs.
 9. https://platform.openai.com/docs/guides/embeddings
 10. https://huggingface.co/intfloat/multilingual-e5-base
 11. https://huggingface.co/intfloat/multilingual-e5-large
+12. https://huggingface.co/pkshatech/GLuCoSE-base-ja
 
 ## Datasets
 
