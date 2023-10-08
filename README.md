@@ -21,7 +21,7 @@
 | colorfulscoop/sbert-base-ja                     |             0.742 |        0.657 |        0.254 |     0.551 |
 | oshizo/sbert-jsnli-luke-japanese-base-lite      |             0.811 |        0.726 |        0.497 |     0.678 |
 | sonoisa/sentence-bert-base-ja-mean-tokens-v2    |             0.809 |        0.768 |              |           |
-| text-embedding-ada-002                          |             0.790 |        0.789 |        0.723 |     0.768[^1] |
+| text-embedding-ada-002                          |             0.790 |        0.789 |        0.723[^1] |     0.768 |
 | universal-sentence-encoder-multilingual-3       |             0.790 |        0.800 |              |           |
 | universal-sentence-encoder-multilingual-large-3 |             0.801 |        0.823 |              |           |
 
