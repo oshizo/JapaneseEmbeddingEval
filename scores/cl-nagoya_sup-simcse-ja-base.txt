@@ -1,0 +1,1 @@
+{"model_id": "cl-nagoya/sup-simcse-ja-base", "jsts": 0.8085303681383738, "jsick": 0.8274759655106904, "miracl": 0.5268156424581005}

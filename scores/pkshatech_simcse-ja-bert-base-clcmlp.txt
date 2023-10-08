@@ -1,0 +1,1 @@
+{"model_id": "pkshatech/simcse-ja-bert-base-clcmlp", "jsts": 0.8014181880358991, "jsick": 0.7345622608395528, "miracl": 0.5441340782122905}

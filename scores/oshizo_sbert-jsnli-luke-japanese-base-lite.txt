@@ -1,0 +1,1 @@
+{"model_id": "oshizo/sbert-jsnli-luke-japanese-base-lite", "jsts": 0.8109304600596435, "jsick": 0.7260276811834702, "miracl": 0.4972067039106145}

@@ -1,0 +1,1 @@
+{"model_id": "colorfulscoop/sbert-base-ja", "jsts": 0.7423951868203088, "jsick": 0.6573168898177302, "miracl": 0.2541899441340782}

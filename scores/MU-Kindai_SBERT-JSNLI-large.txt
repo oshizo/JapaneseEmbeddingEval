@@ -1,0 +1,1 @@
+{"model_id": "MU-Kindai/SBERT-JSNLI-large", "jsts": 0.7740053633973121, "jsick": 0.6768182045984232, "miracl": 0.2782122905027933}

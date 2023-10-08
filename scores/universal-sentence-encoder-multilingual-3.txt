@@ -1,0 +1,1 @@
+{"model_id": "universal-sentence-encoder-multilingual-3", "jsts": 0.7899457524478034, "jsick": 0.8003486058678017}

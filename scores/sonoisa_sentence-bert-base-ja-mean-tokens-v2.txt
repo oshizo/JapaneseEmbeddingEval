@@ -1,0 +1,1 @@
+{"model_id": "sonoisa/sentence-bert-base-ja-mean-tokens-v2", "jsts": 0.8086586511632787, "jsick": 0.7680381651996027}
