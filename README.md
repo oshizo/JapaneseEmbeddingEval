@@ -13,12 +13,12 @@
 | cl-nagoya/sup-simcse-ja-large                   |             **0.831** |        **0.831** |        0.507 |     0.723 |
 | cl-nagoya/unsup-simcse-ja-base                  |             0.789 |        0.790 |        0.487 |     0.689 |
 | cl-nagoya/unsup-simcse-ja-large                 |             0.814 |        0.796 |        0.485 |     0.699 |
+| colorfulscoop/sbert-base-ja                     |             0.742 |        0.657 |        0.254 |     0.551 |
 | intfloat/multilingual-e5-base                   |             0.796 |        0.806 |        0.845 |     0.816 |
 | intfloat/multilingual-e5-large                  |             <ins>0.819</ins> |        0.794 |        **0.883** |     **0.832** |
 | intfloat/multilingual-e5-small                  |             0.789 |        0.814 |        <ins>0.847</ins> |     <ins>0.817</ins> |
 | pkshatech/GLuCoSE-base-ja                       |             0.818 |        0.757 |        0.692 |     0.755 |
 | pkshatech/simcse-ja-bert-base-clcmlp            |             0.801 |        0.735 |        0.544 |     0.693 |
-| colorfulscoop/sbert-base-ja                     |             0.742 |        0.657 |        0.254 |     0.551 |
 | oshizo/sbert-jsnli-luke-japanese-base-lite      |             0.811 |        0.726 |        0.497 |     0.678 |
 | sonoisa/sentence-bert-base-ja-mean-tokens-v2    |             0.809 |        0.768 |              |           |
 | text-embedding-ada-002                          |             0.790 |        0.789 |        0.723[^1] |     0.768 |
