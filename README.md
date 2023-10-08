@@ -1,8 +1,7 @@
 # JapaneseEmbeddingEval
 
-## Spearman's rank correlation coefficient
-
-* JSTS/JSICK: Cosine similarity was used to calculate the similarity of sentence pairs.
+* JSTS/JSICK: Spearman's rank correlation coefficient
+   * Cosine similarity was used to calculate the similarity of sentence pairs.
 * MIRACL: top30 recall
 
 | Model                                           |   JSTS valid-v1.1 |   JSICK test |   MIRACL dev |   Average |
