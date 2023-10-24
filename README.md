@@ -13,9 +13,9 @@
 | cl-nagoya/unsup-simcse-ja-base                  |             0.789 |        0.790 |        0.487 |     0.689 |
 | cl-nagoya/unsup-simcse-ja-large                 |             0.814 |        0.796 |        0.485 |     0.699 |
 | colorfulscoop/sbert-base-ja                     |             0.742 |        0.657 |        0.254 |     0.551 |
-| intfloat/multilingual-e5-base                   |             0.796 |        0.806 |        0.845 |     0.816 |
-| intfloat/multilingual-e5-large                  |             <ins>0.819</ins> |        0.794 |        **0.883** |     **0.832** |
-| intfloat/multilingual-e5-small                  |             0.789 |        0.814 |        <ins>0.847</ins> |     <ins>0.817</ins> |
+| intfloat/multilingual-e5-base                   |             0.796 |        0.806 |        0.845[^2] |     0.816 |
+| intfloat/multilingual-e5-large                  |             <ins>0.819</ins> |        0.794 |        **0.883**[^2] |     **0.832** |
+| intfloat/multilingual-e5-small                  |             0.789 |        0.814 |        <ins>0.847</ins>[^2] |     <ins>0.817</ins> |
 | pkshatech/GLuCoSE-base-ja                       |             0.818 |        0.757 |        0.692 |     0.755 |
 | pkshatech/simcse-ja-bert-base-clcmlp            |             0.801 |        0.735 |        0.544 |     0.693 |
 | oshizo/sbert-jsnli-luke-japanese-base-lite      |             0.811 |        0.726 |        0.497 |     0.678 |
@@ -25,6 +25,8 @@
 | universal-sentence-encoder-multilingual-large-3 |             0.801 |        0.823 |              |           |
 
 [^1]: Evaluate only the first 100 queries out of 860 queries
+[^2]: According to the [model card of multilingual-e5](https://huggingface.co/intfloat/multilingual-e5-large#training-details), the training set of MIRACL is used for fine tuning, so MIRACL is not an unseen task for this model
+
 
 ## Datasets
 
