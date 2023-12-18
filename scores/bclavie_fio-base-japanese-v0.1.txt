@@ -1,0 +1,1 @@
+{"model_id": "bclavie/fio-base-japanese-v0.1", "jsts": 0.8631726482667125, "jsick": 0.8938229970354092, "miracl": 0.7178770949720671}
