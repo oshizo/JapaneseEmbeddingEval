@@ -6,11 +6,10 @@
 
 | Model                                           |   JSTS valid-v1.1 |   JSICK test |   MIRACL dev |   Average |
 |:------------------------------------------------|------------------:|-------------:|-------------:|----------:|
-| bclavie/fio-base-japanese-v0.1                  |         **0.863** |    **0.894** |        0.718[^3] |     0.825 |
 | MU-Kindai/SBERT-JSNLI-base                      |             0.766 |        0.652 |        0.326 |     0.581 |
 | MU-Kindai/SBERT-JSNLI-large                     |             0.774 |        0.677 |        0.278 |     0.576 |
 | cl-nagoya/sup-simcse-ja-base                    |             0.809 |        <ins>0.827</ins> |        0.527 |     0.721 |
-| cl-nagoya/sup-simcse-ja-large                   |             0.831 |        0.831 |        0.507 |     0.723 |
+| cl-nagoya/sup-simcse-ja-large                   |             **0.831** |        **0.831** |        0.507 |     0.723 |
 | cl-nagoya/unsup-simcse-ja-base                  |             0.789 |        0.790 |        0.487 |     0.689 |
 | cl-nagoya/unsup-simcse-ja-large                 |             0.814 |        0.796 |        0.485 |     0.699 |
 | colorfulscoop/sbert-base-ja                     |             0.742 |        0.657 |        0.254 |     0.551 |
@@ -24,11 +23,11 @@
 | text-embedding-ada-002                          |             0.790 |        0.789 |        0.723[^1] |     0.768 |
 | universal-sentence-encoder-multilingual-3       |             0.790 |        0.800 |              |           |
 | universal-sentence-encoder-multilingual-large-3 |             0.801 |        0.823 |              |           |
+| bclavie/fio-base-japanese-v0.1 [^3]                  |         **0.863** |    **0.894** |        0.718 |     0.825 |
 
 [^1]: Evaluate only the first 100 queries out of 860 queries
 [^2]: According to the [model card of multilingual-e5](https://huggingface.co/intfloat/multilingual-e5-large#training-details), the training set of MIRACL is used for fine tuning, so MIRACL is not an unseen task for this model
-[^3]: According to the [blog post about fio-base-japanese-v0.1](https://ben.clavie.eu/fio), a subsampl of the training set of MIRACL is used for fine tuning, so MIRACL is not a fully unseen task for this model.
-
+[^3]: According to the [blog post about fio-base-japanese-v0.1](https://ben.clavie.eu/fio), the tasks aren't unseen by the model, which makes it hard to directly compare with the other models.
 
 ## Datasets
 
