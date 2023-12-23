@@ -23,10 +23,11 @@
 | text-embedding-ada-002                          |             0.790 |        0.789 |        0.723[^1] |     0.768 |
 | universal-sentence-encoder-multilingual-3       |             0.790 |        0.800 |              |           |
 | universal-sentence-encoder-multilingual-large-3 |             0.801 |        0.823 |              |           |
+| bclavie/fio-base-japanese-v0.1 [^3]                  |         **0.863** |    **0.894** |        0.718 |     0.825 |
 
 [^1]: Evaluate only the first 100 queries out of 860 queries
 [^2]: According to the [model card of multilingual-e5](https://huggingface.co/intfloat/multilingual-e5-large#training-details), the training set of MIRACL is used for fine tuning, so MIRACL is not an unseen task for this model
-
+[^3]: According to the [blog post about fio-base-japanese-v0.1](https://ben.clavie.eu/fio), the tasks aren't unseen by the model, which makes it hard to directly compare with the other models.
 
 ## Datasets
 
