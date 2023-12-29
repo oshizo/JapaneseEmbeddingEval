@@ -21,6 +21,7 @@
 | oshizo/sbert-jsnli-luke-japanese-base-lite      |             0.811 |        0.726 |        0.497 |     0.678 |
 | sonoisa/sentence-bert-base-ja-mean-tokens-v2    |             0.809 |        0.768 |              |           |
 | text-embedding-ada-002                          |             0.790 |        0.789 |        0.723[^1] |     0.768 |
+| textembedding-gecko-multilingual@001            |             0.801 |        0.804 |              |           |
 | universal-sentence-encoder-multilingual-3       |             0.790 |        0.800 |              |           |
 | universal-sentence-encoder-multilingual-large-3 |             0.801 |        0.823 |              |           |
 | bclavie/fio-base-japanese-v0.1 [^3]                  |         **0.863** |    **0.894** |        0.718 |     0.825 |
