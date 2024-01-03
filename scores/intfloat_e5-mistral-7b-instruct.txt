@@ -1,0 +1,1 @@
+{"model_id": "intfloat/e5-mistral-7b-instruct", "jsts": 0.8357593693320576, "jsick": 0.8358997121888061, "miracl": 0.8854748603351955}
