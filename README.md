@@ -50,3 +50,4 @@
         * Hard negative mining was performed using intfloat/multilingual-e5-base
         * Scores for models other than intfloat/multilingual-e5-base are calculated higher only in the following case, but we believe that they are almost unaffected.
             * A negative that is ranked lower than the top 300 by intfloat/multilingual-e5-base is ranked within the top 30 by that model, which pushes the positive into the top 30 or lower.
+    * Some queries contain more than 30 potential positive documents in the miracl-corpus. In this case, even a very good model may not be able to rank the ground truth positive documents within the top 30. We estimated such queries to be about 7% to 10% of the total 860 queries. This number was estimated by referring to the tydiqa data for the same query as the corresponding miracl dev query and counting whether the tydiqa answer phrase was in at least 30 of the 300 hard negatives documents.
