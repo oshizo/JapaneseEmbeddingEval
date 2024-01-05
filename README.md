@@ -9,14 +9,13 @@
 | MU-Kindai/SBERT-JSNLI-base                      |             0.766 |        0.652 |        0.326 |     0.581 |
 | MU-Kindai/SBERT-JSNLI-large                     |             0.774 |        0.677 |        0.278 |     0.576 |
 | cl-nagoya/sup-simcse-ja-base                    |             0.809 |        0.827 |        0.527 |     0.721 |
-| cl-nagoya/sup-simcse-ja-large                   |  <ins>0.831</ins> | <ins>0.831</ins> |    0.507 |     0.723 |
+| cl-nagoya/sup-simcse-ja-large                   |             0.831 |        0.831 |        0.507 |     0.723 |
 | cl-nagoya/unsup-simcse-ja-base                  |             0.789 |        0.790 |        0.487 |     0.689 |
 | cl-nagoya/unsup-simcse-ja-large                 |             0.814 |        0.796 |        0.485 |     0.699 |
 | colorfulscoop/sbert-base-ja                     |             0.742 |        0.657 |        0.254 |     0.551 |
-| intfloat/e5-mistral-7b-instruct                 |         **0.836** |    **0.836** |**0.885**[^2] | **0.852** |
 | intfloat/multilingual-e5-base                   |             0.796 |        0.806 |    0.845[^2] |     0.816 |
-| intfloat/multilingual-e5-large                  |             0.819 |        0.794 |<ins>0.883</ins>[^2] |     <ins>0.832</ins> |
-| intfloat/multilingual-e5-small                  |             0.789 |        0.814 |       0.847[^2] |  0.817 |
+| intfloat/multilingual-e5-large                  |             0.819 |        0.794 |    0.883[^2] |     0.832 |
+| intfloat/multilingual-e5-small                  |             0.789 |        0.814 |    0.847[^2] |     0.817 |
 | pkshatech/GLuCoSE-base-ja                       |             0.818 |        0.757 |        0.692 |     0.755 |
 | pkshatech/simcse-ja-bert-base-clcmlp            |             0.801 |        0.735 |        0.544 |     0.693 |
 | oshizo/sbert-jsnli-luke-japanese-base-lite      |             0.811 |        0.726 |        0.497 |     0.678 |
@@ -25,7 +24,10 @@
 | textembedding-gecko-multilingual@001            |             0.801 |        0.804 |              |           |
 | universal-sentence-encoder-multilingual-3       |             0.790 |        0.800 |              |           |
 | universal-sentence-encoder-multilingual-large-3 |             0.801 |        0.823 |              |           |
-| bclavie/fio-base-japanese-v0.1 [^3]                  |        0.863 |        0.894 |        0.718 |     0.825 |
+| bclavie/fio-base-japanese-v0.1 [^3]             |             0.863 |        0.894 |        0.718 |     0.825 |
+| LLM Models|
+| intfloat/e5-mistral-7b-instruct                 |             0.836 |        0.836 |    0.885[^2] |     0.852 |
+| oshizo/japanese-e5-mistral-7b_slerp             |             0.846 |        0.842 |    0.886[^2] |     0.858 |
 
 [^1]: Evaluate only the first 100 queries out of 860 queries
 [^2]: According to the [model card of multilingual-e5](https://huggingface.co/intfloat/multilingual-e5-large#training-details), the training set of MIRACL is used for fine tuning, so MIRACL is not an unseen task for this model
