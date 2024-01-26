@@ -20,12 +20,15 @@
 | pkshatech/simcse-ja-bert-base-clcmlp            |             0.801 |        0.735 |        0.544 |     0.693 |
 | oshizo/sbert-jsnli-luke-japanese-base-lite      |             0.811 |        0.726 |        0.497 |     0.678 |
 | sonoisa/sentence-bert-base-ja-mean-tokens-v2    |             0.809 |        0.768 |              |           |
-| text-embedding-ada-002                          |             0.790 |        0.789 |    0.723[^1] |     0.768 |
-| textembedding-gecko-multilingual@001            |             0.801 |        0.804 |              |           |
 | universal-sentence-encoder-multilingual-3       |             0.790 |        0.800 |              |           |
 | universal-sentence-encoder-multilingual-large-3 |             0.801 |        0.823 |              |           |
 | bclavie/fio-base-japanese-v0.1 [^3]             |             0.863 |        0.894 |        0.718 |     0.825 |
-| LLM Models|
+| API|
+| text-embedding-3-large                          |             0.838 |        0.812 |        0.841[^1] |     0.830 |
+| text-embedding-3-small                          |             0.781 |        0.804 |        0.795[^1] |     0.793 |
+| text-embedding-ada-002                          |             0.790 |        0.790 |        0.728[^1] |     0.769 |
+| textembedding-gecko-multilingual@001            |             0.801 |        0.804 |              |           |
+| LLM|
 | intfloat/e5-mistral-7b-instruct                 |             0.836 |        0.836 |    0.885[^2] |     0.852 |
 | oshizo/japanese-e5-mistral-7b_slerp             |             0.846 |        0.842 |    0.886[^2] |     0.858 |
 
