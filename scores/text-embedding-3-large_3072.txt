@@ -1,0 +1,1 @@
+{"model_id": "text-embedding-3-large", "jsts": 0.8376993902963759, "jsick": 0.8115338122021275, "miracl": 0.841025641025641}
