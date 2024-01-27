@@ -1,0 +1,1 @@
+{"model_id": "bclavie/jacolbert_first_100", "jsts": null, "jsick": null, "miracl": 0.8717948717948718}
