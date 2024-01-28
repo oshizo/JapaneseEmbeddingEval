@@ -1,0 +1,1 @@
+{"model_id": "textembedding-gecko-multilingual@001", "jsts": 0.8006039095558688, "jsick": 0.803561121302977, "miracl": 0.8}
