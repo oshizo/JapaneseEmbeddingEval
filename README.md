@@ -6,7 +6,7 @@
 
 | Model                                           |   JSTS valid-v1.1 |   JSICK test |   MIRACL dev |   Average |
 |:------------------------------------------------|------------------:|-------------:|-------------:|----------:|
-| BAAI/bge-m3                                     |             0.802 |        0.798 |    0.910[^2] |     0.837 |
+| BAAI/bge-m3(dense_vecs)                         |             0.802 |        0.798 |    0.910[^2] |     0.837 |
 | MU-Kindai/SBERT-JSNLI-base                      |             0.766 |        0.652 |        0.326 |     0.581 |
 | MU-Kindai/SBERT-JSNLI-large                     |             0.774 |        0.677 |        0.278 |     0.576 |
 | cl-nagoya/sup-simcse-ja-base                    |             0.809 |        0.827 |        0.527 |     0.721 |
