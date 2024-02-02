@@ -10,7 +10,6 @@
 | MU-Kindai/SBERT-JSNLI-base                      | 768     | 110M      |             0.766 |        0.652 |        0.326 |     0.581 |
 | MU-Kindai/SBERT-JSNLI-large                     | 1024    | 337M      |             0.774 |        0.677 |        0.278 |     0.576 |
 | bclavie/fio-base-japanese-v0.1 [^3]             | 768     | 111M      |             0.863 |        0.894 |        0.718 |     0.825 |
-| bclavie/jacolbert_first_100 [^4]                | 768     | 111M      |                   |              |        0.872[^1] |           |
 | cl-nagoya/sup-simcse-ja-base                    | 768     | 111M      |             0.809 |        0.827 |        0.527 |     0.721 |
 | cl-nagoya/sup-simcse-ja-large                   | 1024    | 337M      |             0.831 |        0.831 |        0.507 |     0.723 |
 | cl-nagoya/unsup-simcse-ja-base                  | 768     | 111M      |             0.789 |        0.790 |        0.487 |     0.689 |
@@ -30,6 +29,8 @@
 | LLM|
 | intfloat/e5-mistral-7b-instruct                 | 4096    | 7.3B      |             0.836 |        0.836 |        0.885 |     0.852 |
 | oshizo/japanese-e5-mistral-7b_slerp             | 4096    | 7.3B      |             0.846 |        0.842 |        0.886 |     0.858 |
+| ColBERT|
+| bclavie/jacolbert_first_100 [^4]                | 768     | 111M      |                   |              |        0.872[^1] |           |
 
 [^1]: Evaluate only the first 100 queries out of 860 queries
 [^2]: According to the [model card of multilingual-e5](https://huggingface.co/intfloat/multilingual-e5-large#training-details) and [technical report of BGE-M3](https://github.com/FlagOpen/FlagEmbedding/blob/master/FlagEmbedding/BGE_M3/BGE_M3.pdf) the training set of MIRACL is used for fine tuning, so MIRACL is not an unseen task for this model
