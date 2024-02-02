@@ -1,0 +1,1 @@
+{"model_id": "oshizo/japanese-e5-mistral-1.9b", "jsts": 0.825669979656227, "jsick": 0.8334555636238806, "miracl": 0.7966480446927374}

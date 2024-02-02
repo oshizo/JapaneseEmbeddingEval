@@ -29,6 +29,7 @@
 | LLM|
 | intfloat/e5-mistral-7b-instruct                 | 4096    | 7.3B      |             0.836 |        0.836 |        0.885 |     0.852 |
 | oshizo/japanese-e5-mistral-7b_slerp             | 4096    | 7.3B      |             0.846 |        0.842 |        0.886 |     0.858 |
+| oshizo/japanese-e5-mistral-1.9b                 | 4096    | 1.9B      |             0.826 |        0.833 |        0.797 |     0.819 |
 | ColBERT|
 | bclavie/jacolbert_first_100 [^4]                | 768     | 111M      |                   |              |        0.872[^1] |           |
 
