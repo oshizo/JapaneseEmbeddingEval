@@ -6,7 +6,7 @@
 
 | Model                                           | #dims   | #params   |   JSTS valid-v1.1 |   JSICK test |   MIRACL dev |   Average |
 |:------------------------------------------------|:--------|:----------|------------------:|-------------:|-------------:|----------:|
-| BAAI/bge-m3                                     | 1024    | 567M      |             0.802 |        0.798 |        0.910[^2] |     0.837 |
+| BAAI/bge-m3(dense_vecs)                         | 1024    | 567M      |             0.802 |        0.798 |        0.910[^2] |     0.837 |
 | MU-Kindai/SBERT-JSNLI-base                      | 768     | 110M      |             0.766 |        0.652 |        0.326 |     0.581 |
 | MU-Kindai/SBERT-JSNLI-large                     | 1024    | 337M      |             0.774 |        0.677 |        0.278 |     0.576 |
 | bclavie/fio-base-japanese-v0.1 [^3]             | 768     | 111M      |             0.863 |        0.894 |        0.718 |     0.825 |
@@ -31,7 +31,8 @@
 | oshizo/japanese-e5-mistral-7b_slerp             | 4096    | 7.3B      |             0.846 |        0.842 |        0.886 |     0.858 |
 | oshizo/japanese-e5-mistral-1.9b                 | 4096    | 1.9B      |             0.826 |        0.833 |        0.797 |     0.819 |
 | ColBERT|
-| bclavie/jacolbert_first_100 [^4]                | 768     | 111M      |                   |              |        0.872[^1] |           |
+| bclavie/jacolbert_first_100 [^4]                | 768     | 111M      |                   |              |    0.872[^1] |           |
+| BAAI/bge-m3(colbert_vecs)                       | 1024    | 567M      |             0.799 |        0.798 |        0.917[^2] |     0.838 |
 
 [^1]: Evaluate only the first 100 queries out of 860 queries
 [^2]: According to the [model card of multilingual-e5](https://huggingface.co/intfloat/multilingual-e5-large#training-details) and [technical report of BGE-M3](https://github.com/FlagOpen/FlagEmbedding/blob/master/FlagEmbedding/BGE_M3/BGE_M3.pdf) the training set of MIRACL is used for fine tuning, so MIRACL is not an unseen task for this model
