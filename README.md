@@ -33,6 +33,7 @@
 | ColBERT|
 | bclavie/jacolbert_first_100 [^4]                | 768     | 111M      |                   |              |    0.872[^1] |           |
 | BAAI/bge-m3(colbert_vecs)                       | 1024    | 567M      |             0.799 |        0.798 |        0.917[^2] |     0.838 |
+| BAAI/bge-m3(colbert+sparse+dense)                       | 1024    | 567M      |             0.800 |        0.805 |        0.926 [^2] |     0.844 |
 
 [^1]: Evaluate only the first 100 queries out of 860 queries
 [^2]: According to the [model card of multilingual-e5](https://huggingface.co/intfloat/multilingual-e5-large#training-details) and [technical report of BGE-M3](https://github.com/FlagOpen/FlagEmbedding/blob/master/FlagEmbedding/BGE_M3/BGE_M3.pdf) the training set of MIRACL is used for fine tuning, so MIRACL is not an unseen task for this model
