@@ -15,9 +15,10 @@
 | cl-nagoya/unsup-simcse-ja-base                  | 768     | 111M      |             0.789 |        0.790 |        0.487 |     0.689 |
 | cl-nagoya/unsup-simcse-ja-large                 | 1024    | 337M      |             0.814 |        0.796 |        0.485 |     0.699 |
 | colorfulscoop/sbert-base-ja                     | 768     | 110M      |             0.742 |        0.657 |        0.254 |     0.551 |
+| intfloat/multilingual-e5-small                  | 384     | 117M      |             0.789 |        0.814 |        0.847[^2] |     0.817 |
 | intfloat/multilingual-e5-base                   | 768     | 278M      |             0.796 |        0.806 |        0.845[^2] |     0.816 |
 | intfloat/multilingual-e5-large                  | 1024    | 559M      |             0.819 |        0.794 |        0.883[^2] |     0.832 |
-| intfloat/multilingual-e5-small                  | 384     | 117M      |             0.789 |        0.814 |        0.847[^2] |     0.817 |
+| intfloat/multilingual-e5-large-instruct         | 1024    | 559M      |             0.832 |        0.822 |        0.876[^2] |     0.844 |
 | oshizo/sbert-jsnli-luke-japanese-base-lite      | 768     | 133M      |             0.811 |        0.726 |        0.497 |     0.678 |
 | pkshatech/GLuCoSE-base-ja                       | 768     | 133M      |             0.818 |        0.757 |        0.692 |     0.755 |
 | pkshatech/simcse-ja-bert-base-clcmlp            | 768     | 111M      |             0.801 |        0.735 |        0.544 |     0.693 |

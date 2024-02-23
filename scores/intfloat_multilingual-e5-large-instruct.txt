@@ -1,0 +1,1 @@
+{"model_id": "intfloat/multilingual-e5-large-instruct", "jsts": 0.8324750544227347, "jsick": 0.8221945002561732, "miracl": 0.8759776536312849}
