@@ -33,6 +33,7 @@
 | oshizo/japanese-e5-mistral-1.9b                 | 4096    | 1.9B      |             0.826 |        0.833 |        0.797 |     0.819 |
 | ColBERT|
 | bclavie/jacolbert_first_100 [^4]                | 128/token     | 111M      |                   |              |    0.872[^1] |           |
+| bclavie/JaColBERTv2 [^4]                | 128/token     | 111M      |                   |              |    0.918[^1] |           |
 | BAAI/bge-m3(colbert_vecs)                       | 1024/token    | 567M      |             0.799 |        0.798 |        0.917[^2] |     0.838 |
 | BAAI/bge-m3(colbert+sparse+dense)                       | 1024/token[^5]    | 567M      |             0.800 |        0.805 |        0.926 [^2] |     0.844 |
 
