@@ -1,1 +1,1 @@
-{"model_id": "hotchpotch/japanese-bge-reranker-v2-m3-v1_first_100", "jsts": null, "jsick": null, "miracl": 0.946927374301676}
+{"model_id": "hotchpotch/japanese-bge-reranker-v2-m3-v1", "jsts": null, "jsick": null, "miracl": 0.946927374301676}
