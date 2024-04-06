@@ -36,12 +36,16 @@
 | bclavie/JaColBERTv2 [^4]                | 128/token     | 111M      |                   |              |    0.918[^1] |           |
 | BAAI/bge-m3(colbert_vecs)                       | 1024/token    | 567M      |             0.799 |        0.798 |        0.917[^2] |     0.838 |
 | BAAI/bge-m3(colbert+sparse+dense)                       | 1024/token[^5]    | 567M      |             0.800 |        0.805 |        0.926 [^2] |     0.844 |
+| Reranker|
+| hotchpotch/japanese-bge-reranker-v2-m3-v1               | -    | 567M      |              |         |        0.947[^6] |      |
+
 
 [^1]: Evaluate only the first 100 queries out of 860 queries
 [^2]: According to the [model card of multilingual-e5](https://huggingface.co/intfloat/multilingual-e5-large#training-details) and [technical report of BGE-M3](https://github.com/FlagOpen/FlagEmbedding/blob/master/FlagEmbedding/BGE_M3/BGE_M3.pdf) the training set of MIRACL is used for fine tuning, so MIRACL is not an unseen task for this model
 [^3]: According to the [blog post about fio-base-japanese-v0.1](https://ben.clavie.eu/fio), the tasks aren't unseen by the model, which makes it hard to directly compare with the other models.
 [^4]: JaColBERT is a retrieval model. It is optimised only for document retrieval tasks, and not for semantic similarity/entailment tasks like JSTS or JSICK.
 [^5]: Embedded dimension for dence is 1024, sparse is one float value per unique token, colbert is 1024 per token.
+[^6]: According to the [technical report of hotchpotch/japanese-bge-reranker-v2-m3-v1](https://secon.dev/entry/2024/04/02/080000-japanese-reranker-tech-report/) the training set of MIRACL is used for fine tuning, so MIRACL is not an unseen task for this model
 
 ## Datasets
 
