@@ -1,0 +1,1 @@
+{"model_id": "hotchpotch/japanese-splade-base-v1", "jsts": null, "jsick": null, "miracl": 0.9251396648044693}
