@@ -25,23 +25,24 @@
 | oshizo/sbert-jsnli-luke-japanese-base-lite      | 768     | 133M      |             0.811 |        0.726 |        0.497 |     0.678 |
 | pkshatech/GLuCoSE-base-ja                       | 768     | 133M      |             0.818 |        0.757 |        0.692 |     0.755 |
 | pkshatech/simcse-ja-bert-base-clcmlp            | 768     | 111M      |             0.801 |        0.735 |        0.544 |     0.693 |
-| API|
+| **API**|
 | text-embedding-3-large                          | 3072    |           |             0.838 |        0.812 |        0.841[^1] |     0.830 |
 | text-embedding-3-small                          | 1536    |           |             0.781 |        0.804 |        0.795[^1] |     0.793 |
 | text-embedding-ada-002                          | 1536    |           |             0.790 |        0.790 |        0.728[^1] |     0.769 |
 | textembedding-gecko-multilingual@001            | 768     |           |             0.801 |        0.804 |        0.800[^1] |     0.801 |
-| LLM|
+| **LLM**|
 | intfloat/e5-mistral-7b-instruct                 | 4096    | 7.3B      |             0.836 |        0.836 |        0.885 |     0.852 |
 | oshizo/japanese-e5-mistral-7b_slerp             | 4096    | 7.3B      |             0.846 |        0.842 |        0.886 |     0.858 |
 | oshizo/japanese-e5-mistral-1.9b                 | 4096    | 1.9B      |             0.826 |        0.833 |        0.797 |     0.819 |
-| ColBERT|
+| **ColBERT**|
 | bclavie/jacolbert_first_100 [^4]                | 128/token     | 111M      |                   |              |    0.872[^1] |           |
 | bclavie/JaColBERTv2 [^4]                | 128/token     | 111M      |                   |              |    0.918[^1] |           |
 | BAAI/bge-m3(colbert_vecs)                       | 1024/token    | 567M      |             0.799 |        0.798 |        0.917[^2] |     0.838 |
 | BAAI/bge-m3(colbert+sparse+dense)                       | 1024/token[^5]    | 567M      |             0.800 |        0.805 |        0.926 [^2] |     0.844 |
-| Reranker|
+| **Reranker**|
 | hotchpotch/japanese-bge-reranker-v2-m3-v1               | -    | 567M      |              |         |        0.947[^6] |      |
-
+| **Sparse Retrieval**|
+| hotchpotch/japanese-splade-base-v1              | -       | 111M      |                   |              |        0.925[^7] |           |
 
 [^1]: Evaluate only the first 100 queries out of 860 queries
 [^2]: According to the [model card of multilingual-e5](https://huggingface.co/intfloat/multilingual-e5-large#training-details) and [technical report of BGE-M3](https://github.com/FlagOpen/FlagEmbedding/blob/master/FlagEmbedding/BGE_M3/BGE_M3.pdf) the training set of MIRACL is used for fine tuning, so MIRACL is not an unseen task for this model
@@ -49,6 +50,7 @@
 [^4]: JaColBERT is a retrieval model. It is optimised only for document retrieval tasks, and not for semantic similarity/entailment tasks like JSTS or JSICK.
 [^5]: Embedded dimension for dence is 1024, sparse is one float value per unique token, colbert is 1024 per token.
 [^6]: According to the [technical report of hotchpotch/japanese-bge-reranker-v2-m3-v1](https://secon.dev/entry/2024/04/02/080000-japanese-reranker-tech-report/) the training set of MIRACL is used for fine tuning, so MIRACL is not an unseen task for this model
+[^7]: According to the [model card](https://huggingface.co/hotchpotch/japanese-splade-base-v1), the training set of MIRACL is used for fine tuning, so MIRACL is not an unseen task for this model
 
 ## Datasets
 
