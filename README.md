@@ -1,3 +1,6 @@
+⚠️ **重要** 2024/10/8 より多様なタスクにより埋め込みモデルを評価したリーダーボード[JMTEB](https://github.com/sbintuitions/JMTEB)が公開されておりますので、こちらを参照することをお勧めします。  
+⚠️ **IMPORTANT UPDATE**: we recommend checking out [JMTEB](https://github.com/sbintuitions/JMTEB), a new leaderboard that evaluates embedding models using a more diverse set of tasks.
+
 # JapaneseEmbeddingEval
 
 * JSTS/JSICK: Spearman's rank correlation coefficient
