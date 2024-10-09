@@ -1,0 +1,1 @@
+{"model_id": "pkshatech/RoSEtta-base-ja", "jsts": 0.7895217746835048, "jsick": 0.8353412939093308, "miracl": 0.8452513966480447}

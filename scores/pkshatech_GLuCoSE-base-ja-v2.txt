@@ -1,0 +1,1 @@
+{"model_id": "pkshatech/GLuCoSE-base-ja-v2", "jsts": 0.808965162015302, "jsick": 0.8490230332181042, "miracl": 0.8793296089385475}

@@ -1,0 +1,1 @@
+{"model_id": "jinaai/jina-embeddings-v3", "jsts": 0.819303621680816, "jsick": 0.7823283131311801, "miracl": 0.8620111731843575}
